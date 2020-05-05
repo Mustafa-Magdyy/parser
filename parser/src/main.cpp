@@ -16,6 +16,8 @@ int main()
 {
 	freopen("/home/mustafa/git/parser/parser/src/TestCase1.txt", "r", stdin);
 
+	cout << "test update" << endl;
+
 	char c;
 	string type, value;
 
