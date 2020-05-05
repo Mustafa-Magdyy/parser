@@ -12,11 +12,9 @@ using namespace std;
 
 Token tokens[N];
 
-int x;
-
 int main()
 {
-	freopen("/home/mustafa/cpp-projects/parser/src/TestCase1.txt", "r", stdin);
+	freopen("/home/mustafa/git/parser/parser/src/TestCase1.txt", "r", stdin);
 
 	char c;
 	string type, value;
