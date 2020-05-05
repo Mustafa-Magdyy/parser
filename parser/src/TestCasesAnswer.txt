@@ -1,0 +1,13 @@
+int ComputeFac(int num){
+int factorial = 1;
+if (num < 0)
+        return factorial;
+else
+    {
+        for(int i=1; i<=num; i++)
+        {
+            factorial = factorial * i;              // factorial = factorial*i;
+        }
+    }
+return factorial;
+}
