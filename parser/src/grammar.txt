@@ -1,0 +1,41 @@
+MiniC grammar:
+
+program 		--> decl_list
+decl_list 		--> decl decl_list | decl
+decl			--> var_decl | fun_decl
+var_dec 		--> type_spec IDENT; | type_spec IDENT[];
+type_spec 		--> VOID | BOOL | INT | FLOAT
+fun_decl 		--> type_spec IDENT(params) compound_stmt
+params 			--> param_list | VOID
+param_list 		--> param param_list'
+param_list'		--> ,param_list | EPS
+param 			--> type_spec IDENT | type_spec IDENT[]
+stmt_list		--> stmt stmt_list | EPS
+stmt			--> expr_stmt | if_stmt | while_stmt | return_stmt | break_stmt
+expr_stmt 		--> expr; | ;
+while_stmt 		--> WHILE(expr) compound_stmt
+compound_stmt	--> {compound_stmt'}
+compound_stmt'	--> local_decls stmt_list compound_stmt' | local_decls stmt_list
+local_decls		--> local_decl local_decls | EPS
+local_decl		--> type_spec IDENT; | type_spec IDENT[];
+if_stmt			--> IF(expr) compound_stmt | IF(expr) compound_stmt ELSE compound_stmt
+return_stmt		--> RETURN expr; | RETURN;
+
+expr			--> IDENT = expr | IDENT[expr] = expr | expr1
+expr1			--> expr2 expr1'
+expr1'			--> AND expr1 | OR expr1 | EPS
+expr2			--> expr3 expr2'
+expr2'			--> NE expr2 | EQ expr2 | EPS
+expr3			--> expr4 expr3'
+expr3'			--> LE expr3 | LT expr3 | GE expr3 | GT expr3 | EPS
+expr4			--> expr5 expr4'
+expr4'			--> + expr4 | - expr4 | EPS
+expr5			--> expr6 expr5'
+expr5'			--> * expr5 | / expr5 | % expr5 | EPS
+expr6			--> !expr6 | +expr6 | -expr6 | expr7
+expr7			--> (expr) | expr8
+expr8			--> IDENT(args) | IDENT[expr] | IDENT | BOOL_LIT | INT_LIT | FLOAT_LIT
+
+arg_list		--> expr arg_list'
+arg_list'		--> ,arg_list | EPS
+args			--> arg_list | EPS
