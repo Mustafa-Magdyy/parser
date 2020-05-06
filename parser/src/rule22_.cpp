@@ -31,7 +31,12 @@ void rule22_::print()
 	}
 }
 
-rule22_::~rule22_() {
-	// TODO Auto-generated destructor stub
+rule22_::~rule22_()
+{
+	if(obj1)
+	{
+		delete LE_or_LT_or_GE_or_GT;
+		delete obj1;
+	}
 }
 

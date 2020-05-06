@@ -29,7 +29,12 @@ void rule15::print()
 }
 
 
-rule15::~rule15() {
-	// TODO Auto-generated destructor stub
+rule15::~rule15()
+{
+	if(obj1)
+	{
+		delete obj1;
+		delete obj2;
+	}
 }
 

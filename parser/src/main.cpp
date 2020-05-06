@@ -33,8 +33,10 @@ int main()
 	p.nxt = tokens;
 	node *root = p.parse();
 	if(root)
+	{
 		root->print();
-	else
+		delete root;
+	}else
 		cout << "Syntax Error\n";
 
 	return 0;

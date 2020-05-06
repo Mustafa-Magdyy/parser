@@ -39,7 +39,17 @@ void rule17::print()
 	}
 }
 
-rule17::~rule17() {
-	// TODO Auto-generated destructor stub
+rule17::~rule17()
+{
+	delete IF;
+	delete openBracket;
+	delete obj1;
+	delete closeBracket;
+	delete obj2;
+	if(ELSE)
+	{
+		delete ELSE;
+		delete obj3;
+	}
 }
 

@@ -32,6 +32,10 @@ void rule10::print()
 }
 
 rule10::~rule10() {
-	// TODO Auto-generated destructor stub
+	if(obj1)
+	{
+		delete obj1;
+		delete obj2;
+	}
 }
 

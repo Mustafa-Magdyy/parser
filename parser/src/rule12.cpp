@@ -18,16 +18,17 @@ rule12::rule12(Token *semicolon)
 
 void rule12::print()
 {
-	cout << "Rule12:\n";
 	if(obj1 != NULL)
 	{
-		cout << '\t';
 		obj1->print();
 	}
-	cout << '\t' << semicolon->value << '\n';
+	cout << semicolon->value << '\n';
 }
 
-rule12::~rule12() {
-	// TODO Auto-generated destructor stub
+rule12::~rule12()
+{
+	if(obj1)
+		delete obj1;
+	delete semicolon;
 }
 
