@@ -24,10 +24,7 @@ void rule20_::print()
 		cout << AND_or_OR->value << "\n";
 		obj1->print();
 	}
-	else
-	{
-		cout << "eps\n";
-	}
+
 }
 
 rule20_::~rule20_() {

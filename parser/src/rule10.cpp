@@ -22,10 +22,7 @@ void rule10::print()
 		obj1->print();
 		obj2->print();
 	}
-	else
-	{
-		cout << "eps\n";
-	}
+
 }
 
 rule10::~rule10() {

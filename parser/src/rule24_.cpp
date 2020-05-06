@@ -24,10 +24,7 @@ void rule24_::print()
 		cout << MUL_or_DIV_or_MOD->value << '\n';
 		obj1->print();
 	}
-	else
-	{
-		cout << "eps\n";
-	}
+
 }
 
 rule24_::~rule24_() {

@@ -24,10 +24,7 @@ void rule28_::print()
 		cout << COMMA->value << "\n";
 		obj1->print();
 	}
-	else
-	{
-		cout << "eps\n";
-	}
+
 }
 
 rule28_::~rule28_() {

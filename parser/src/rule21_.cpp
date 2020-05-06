@@ -23,10 +23,7 @@ void rule21_::print()
 		cout << NE_or_EQ->value << "\n";
 		obj1->print();
 	}
-	else
-	{
-		cout << "eps\n";
-	}
+
 }
 
 rule21_::~rule21_() {

@@ -23,10 +23,7 @@ void rule2_::print()
 		obj1->print();
 		obj2->print();
 	}
-	else
-	{
-		cout << "eps\n";
-	}
+
 }
 
 rule2_::~rule2_(){}

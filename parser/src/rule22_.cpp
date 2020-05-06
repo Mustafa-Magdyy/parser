@@ -24,10 +24,7 @@ void rule22_::print()
 		cout << LE_or_LT_or_GE_or_GT->value << "\n";
 		obj1->print();
 	}
-	else
-	{
-		cout << "eps\n";
-	}
+
 }
 
 rule22_::~rule22_() {

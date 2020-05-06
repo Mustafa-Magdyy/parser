@@ -23,10 +23,7 @@ void rule8_::print()
 		cout << COMMA->value << '\n';
 		obj1->print();
 	}
-	else
-	{
-		cout << "eps\n";
-	}
+
 }
 
 rule8_::~rule8_(){}

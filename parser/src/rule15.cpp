@@ -19,10 +19,7 @@ void rule15::print()
 		obj1->print();
 		obj2->print();
 	}
-	else
-	{
-		cout << "eps\n";
-	}
+
 }
 
 

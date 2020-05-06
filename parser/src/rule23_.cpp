@@ -24,10 +24,7 @@ void rule23_::print()
 		cout << PLUS_or_MINUS->value << "\n";
 		obj1->print();
 	}
-	else
-	{
-		cout << "eps\n";
-	}
+
 }
 
 rule23_::~rule23_() {

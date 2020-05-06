@@ -17,10 +17,7 @@ void rule2::print()
 		obj1->print();
 		obj2->print();
 	}
-	else
-	{
-		std::cout << "NULL\n";
-	}
+
 }
 
 rule2::~rule2(){}

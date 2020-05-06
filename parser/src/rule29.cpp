@@ -21,10 +21,7 @@ void rule29::print()
 	{
 		obj1->print();
 	}
-	else
-	{
-		cout << "eps\n";
-	}
+
 }
 
 rule29::~rule29() {
