@@ -1,0 +1,19 @@
+void hard_test(int a, int b, float c, bool d)
+{
+	if(a <= 0 && b > 1 || c < 0.5 && d == true){ 
+		return a * b / (c + d);
+	}
+	
+	int n;
+	int i;
+	float arr[];
+	
+	i = 1;
+	n = 10;
+	while(i < n && a || !d)
+	{
+		arr[i] = -arr[i * 2 + i % 3];
+		i = i + 1;
+	}
+	return arr[n / i] + 2;
+}
