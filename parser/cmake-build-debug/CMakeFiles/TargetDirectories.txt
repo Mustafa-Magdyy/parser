@@ -1,3 +1,0 @@
-C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/CMakeFiles/parser.dir
-C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/CMakeFiles/rebuild_cache.dir
