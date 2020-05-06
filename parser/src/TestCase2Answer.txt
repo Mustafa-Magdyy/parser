@@ -1,0 +1,13 @@
+int fast_power(int base, int power)
+{
+	if(power <= 0){ 
+		return 1;
+	}
+	int ret;
+	ret = fast_power(base, power / 2);
+	ret = ret * ret;
+	if(power % 2 == 1){
+		ret = ret * base;
+	}
+	return ret;
+}
