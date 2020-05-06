@@ -1,0 +1,42 @@
+float hardest_test(int a, int b, float c, bool d)
+{
+	if(a <= 0 && b > 1 || c < 0.5 && d == true){ 
+		return a * b / (c + d);
+	}
+	else
+	{
+		int n;
+		int i;
+		float arr[];
+		
+		i = 1;
+		n = 10;
+		while(i < n && a || !d)
+		{
+			arr[i] = -arr[i * 2 + i % 3];
+			i = i + 1;
+		}
+		return arr[n / i] + 2;
+	}
+	return -1; 
+}
+
+
+int fib(int indx)
+{
+	int i;
+	int a;
+	int b;
+	i = 2;
+	a = 1;
+	b = 1;
+	while(i <= indx)
+	{
+		int temp;
+		temp = a;
+		a = b;
+		b = b + temp;
+		i = i + 1;
+	}
+	return i;
+}
