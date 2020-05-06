@@ -26,20 +26,19 @@ void rule4::print()
 {
 	cout << "Rule4 :\n";
 	if (obj1 != NULL) {
-		cout << '\t';
 		obj1->print();
 	}
 	if (IDENT != NULL) {
-		std::cout << '\t' << IDENT->value << "\n\t";
+		std::cout << IDENT->value << "\n";
 	}
 	if (openSquareBracket != NULL) {
-		std::cout << openSquareBracket->value << "\n\t";
+		std::cout << openSquareBracket->value << "\n";
 	}
 	if (closeSquareBracket != NULL) {
-		std::cout << closeSquareBracket->value << "\n\t";
+		std::cout << closeSquareBracket->value << "\n";
 	}
 	if (SEMICOLON != NULL) {
-		std::cout << SEMICOLON->value << "\n\t";
+		std::cout << SEMICOLON->value << "\n";
 	}
 }
 
