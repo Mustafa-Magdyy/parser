@@ -24,5 +24,13 @@ void rule6::print() {
 	obj3->print();
 }
 
-rule6::~rule6(){}
+rule6::~rule6()
+{
+	delete obj1;
+	delete IDENT;
+	delete openPara;
+	delete obj2;
+	delete closePara;
+	delete obj3;
+}
 

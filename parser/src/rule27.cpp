@@ -34,7 +34,14 @@ void rule27::print()
 	}
 }
 
-rule27::~rule27() {
-	// TODO Auto-generated destructor stub
+rule27::~rule27()
+{
+	delete IDENT_or_LIT;
+	if(obj1)
+	{
+		delete openBracket;
+		delete obj1;
+		delete closeBracket;
+	}
 }
 

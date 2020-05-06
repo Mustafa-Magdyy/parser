@@ -58,7 +58,23 @@ void rule19::print()
 	}
 }
 
-rule19::~rule19() {
-	// TODO Auto-generated destructor stub
+rule19::~rule19()
+{
+	if(IDENT)
+	{
+		delete IDENT;
+		delete ASSIGN;
+		delete obj1;
+		if(obj2)
+		{
+			delete openSquareBracket;
+			delete closeSquareBracket;
+			delete obj2;
+		}
+	}
+	else
+	{
+		delete obj3;
+	}
 }
 

@@ -34,7 +34,14 @@ void rule9::print()
 	}
 }
 
-rule9::~rule9() {
-	// TODO Auto-generated destructor stub
+rule9::~rule9()
+{
+	delete obj1;
+	delete IDENT;
+	if(openSquareBracket)
+	{
+		delete openSquareBracket;
+		delete closeSquareBracket;
+	}
 }
 

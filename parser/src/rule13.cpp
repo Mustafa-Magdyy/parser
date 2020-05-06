@@ -15,14 +15,18 @@ rule13::rule13(Token *WHILE, Token *openPara, node *obj1, Token *closePara, node
 
 void rule13::print()
 {
-	cout << "Rule13:\n";
-	cout << '\t' << WHILE->value << '\n\t' << openPara->value << '\n\t';
+	cout << WHILE->value << '\n' << openPara->value << '\n';
 	obj1->print();
-	cout << closePara->value << '\n\t';
+	cout << closePara->value << '\n';
 	obj2->print();
 }
 
-rule13::~rule13() {
-	// TODO Auto-generated destructor stub
+rule13::~rule13()
+{
+	delete WHILE;
+	delete openPara;
+	delete obj1;
+	delete closePara;
+	delete obj2;
 }
 

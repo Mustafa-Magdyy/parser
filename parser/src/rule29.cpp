@@ -29,7 +29,9 @@ void rule29::print()
 	}
 }
 
-rule29::~rule29() {
-	// TODO Auto-generated destructor stub
+rule29::~rule29()
+{
+	if(obj1)
+		delete obj1;
 }
 

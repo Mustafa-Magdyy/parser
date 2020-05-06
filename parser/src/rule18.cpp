@@ -29,7 +29,11 @@ void rule18::print()
 	cout << '\t' << semiColon->value << '\n';
 }
 
-rule18::~rule18() {
-	// TODO Auto-generated destructor stub
+rule18::~rule18()
+{
+	delete RETURN;
+	delete semiColon;
+	if(obj1)
+		delete obj1;
 }
 

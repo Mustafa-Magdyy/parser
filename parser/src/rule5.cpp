@@ -15,5 +15,8 @@ void rule5::print()
 	std::cout << dataType->value << '\n';
 }
 
-rule5::~rule5(){}
+rule5::~rule5()
+{
+	delete dataType;
+}
 

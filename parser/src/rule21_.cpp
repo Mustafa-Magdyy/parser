@@ -30,7 +30,12 @@ void rule21_::print()
 	}
 }
 
-rule21_::~rule21_() {
-	// TODO Auto-generated destructor stub
+rule21_::~rule21_()
+{
+	if(obj1)
+	{
+		delete NE_or_EQ;
+		delete obj1;
+	}
 }
 

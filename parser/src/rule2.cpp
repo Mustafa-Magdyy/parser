@@ -26,4 +26,8 @@ void rule2::print()
 	}
 }
 
-rule2::~rule2(){}
+rule2::~rule2()
+{
+	delete obj1;
+	delete obj2;
+}
