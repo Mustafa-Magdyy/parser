@@ -19,10 +19,9 @@ rule23_::rule23_(Token *plus_or_minus, node *obj1)
 
 void rule23_::print()
 {
-	cout << "Rule23_:\n";
 	if(obj1 != 0)
 	{
-		cout << '\t' << PLUS_or_MINUS->value << "\n\t";
+		cout << PLUS_or_MINUS->value << "\n";
 		obj1->print();
 	}
 	else

@@ -18,7 +18,6 @@ rule8_::rule8_(Token *comma, node *obj1)
 
 void rule8_::print()
 {
-	cout << "Rule8_ :\n\t";
 	if(obj1 != 0)
 	{
 		cout << COMMA->value << '\n';

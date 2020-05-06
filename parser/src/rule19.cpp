@@ -34,26 +34,25 @@ rule19::rule19(node *obj3)
 
 void rule19::print()
 {
-	cout << "Rule19:\n";
 	if(IDENT != 0)
 	{
-		cout << '\t' << IDENT->value << '\n';
+		cout << IDENT->value << '\n';
 		if(openSquareBracket != 0)
 		{
-			cout << '\t' << openSquareBracket->value << '\n';
+			cout << openSquareBracket->value << '\n';
 			obj1->print();
-			cout << '\t' << closeSquareBracket->value << "\n\t" << ASSIGN->value << "\n\t";
+			cout << closeSquareBracket->value << "\n" << ASSIGN->value << "\n";
 			obj2->print();
 		}
 		else
 		{
-			cout << '\t' << ASSIGN->value << "\n\t";
+			cout << ASSIGN->value << "\n";
 			obj1->print();
 		}
 	}
 	else
 	{
-		cout << "\n\t";
+		cout << "\n";
 		obj3->print();
 	}
 }

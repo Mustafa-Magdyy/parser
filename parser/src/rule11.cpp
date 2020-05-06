@@ -18,12 +18,10 @@ rule11::rule11(Token *b_stmt)
 
 void rule11::print()
 {
-	cout << "Rule11 :\n";
 	if (obj1 != NULL) {
-		cout << '\t';
         obj1->print();
 	} else {
-	    cout << '\t' << b_stmt->value << '\n';
+	    cout << b_stmt->value << '\n';
 	}
 }
 

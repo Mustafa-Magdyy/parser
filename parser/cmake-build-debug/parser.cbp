@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="parser"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parser">
+				<Option output="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/parser.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 parser"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parser/fast">
+				<Option output="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/parser.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 parser/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/main.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/parser.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/parser.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule1.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule1.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule10.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule10.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule11.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule11.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule12.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule12.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule13.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule13.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule14.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule14.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule14_.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule14_.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule15.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule15.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule16.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule16.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule17.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule17.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule18.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule18.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule19.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule19.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule2.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule2.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule20.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule20.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule20_.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule20_.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule21.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule21.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule21_.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule21_.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule22.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule22.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule22_.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule22_.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule23.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule23.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule23_.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule23_.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule24.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule24.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule24_.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule24_.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule25.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule25.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule26.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule26.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule27.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule27.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule28.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule28.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule28_.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule28_.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule29.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule29.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule2_.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule2_.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule3.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule3.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule4.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule4.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule5.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule5.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule6.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule6.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule7.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule7.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule8.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule8.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule8_.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule8_.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule9.cpp">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule9.h">
+			<Option target="parser"/>
+		</Unit>
+		<Unit filename="C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,460 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+string
+-
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule1.cpp
+iostream
+-
+rule1.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule1.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule1.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule10.cpp
+iostream
+-
+rule10.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule10.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule10.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule11.cpp
+iostream
+-
+rule11.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule11.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule11.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule12.cpp
+iostream
+-
+rule12.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule12.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule12.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule13.cpp
+iostream
+-
+rule13.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule13.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule13.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule14.cpp
+iostream
+-
+rule14.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule14.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule14.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule14_.cpp
+iostream
+-
+rule14_.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule14_.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule14_.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule15.cpp
+iostream
+-
+rule15.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule15.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule15.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule16.cpp
+iostream
+-
+rule16.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule16.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule16.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule17.cpp
+iostream
+-
+rule17.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule17.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule17.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule18.cpp
+iostream
+-
+rule18.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule18.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule18.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule19.cpp
+iostream
+-
+rule19.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule19.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule19.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule2.cpp
+iostream
+-
+rule2.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule2.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule2.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule20.cpp
+iostream
+-
+rule20.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule20.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule20.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule20_.cpp
+iostream
+-
+rule20_.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule20_.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule20_.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule21.cpp
+iostream
+-
+rule21.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule21.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule21.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule21_.cpp
+iostream
+-
+rule21_.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule21_.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule21_.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule22.cpp
+iostream
+-
+rule22.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule22.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule22.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule22_.cpp
+iostream
+-
+rule22_.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule22_.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule22_.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule23.cpp
+iostream
+-
+rule23.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule23.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule23.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule23_.cpp
+iostream
+-
+rule23_.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule23_.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule23_.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule24.cpp
+iostream
+-
+rule24.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule24.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule24.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule24_.cpp
+iostream
+-
+rule24_.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule24_.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule24_.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule25.cpp
+iostream
+-
+rule25.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule25.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule25.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule26.cpp
+iostream
+-
+rule26.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule26.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule26.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule27.cpp
+iostream
+-
+rule27.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule27.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule27.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule28.cpp
+iostream
+-
+rule28.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule28.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule28.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule28_.cpp
+iostream
+-
+rule28_.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule28_.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule28_.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule29.cpp
+iostream
+-
+rule29.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule29.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule29.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule2_.cpp
+iostream
+-
+rule2_.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule2_.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule2_.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule3.cpp
+iostream
+-
+rule3.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule3.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule3.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule4.cpp
+iostream
+-
+rule4.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule4.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule4.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule5.cpp
+iostream
+-
+rule5.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule5.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule5.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule6.cpp
+iostream
+-
+rule6.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule6.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule6.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule7.cpp
+iostream
+-
+rule7.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule7.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule7.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule8.cpp
+iostream
+-
+rule8.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule8.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule8.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule8_.cpp
+iostream
+-
+rule8_.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule8_.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule8_.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule9.cpp
+iostream
+-
+rule9.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule9.h
+
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/rule9.h
+node.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/node.h
+Token.h
+C:/T/New folder/Fuck/Y5/2nd term/Compiler/parser/parser/src/Token.h
+

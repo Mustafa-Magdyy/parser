@@ -13,9 +13,7 @@ rule22::rule22(node *obj1, node *obj2)
 
 void rule22::print()
 {
-	cout << "Rule22 :\n\t";
 	obj1->print();
-	cout << "\t";
 	obj2->print();
 }
 

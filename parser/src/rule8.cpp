@@ -10,7 +10,6 @@ rule8::rule8(node *obj1, node *obj2) {
 }
 
 void rule8::print() {
-	cout << "Rule8 :\n\t";
 	obj1->print();
 	obj2->print();
 }

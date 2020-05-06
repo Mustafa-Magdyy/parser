@@ -13,9 +13,7 @@ rule23::rule23(node *obj1, node *obj2)
 
 void rule23::print()
 {
-	cout << "Rule23:\n\t";
 	obj1->print();
-	cout << '\t';
 	obj2->print();
 }
 
