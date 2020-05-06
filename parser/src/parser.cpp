@@ -292,7 +292,6 @@ node* parser::compound_stmt_()
     node *s_list = 0;
     if(loc_decls)
     	s_list = stmt_list();
-
     node *comp_stmt_ = 0;
     if(loc_decls && s_list && nxt != copy)
     	comp_stmt_ = compound_stmt_();
@@ -664,7 +663,8 @@ node* parser::expr_p1()
 	node *exp;
 	if(IDENT && EQUAL)
 		exp = expr();
-
+//	if(IDENT && IDENT->value == "ret")
+//		exp->print();
 	if(IDENT && EQUAL && exp)
 		return new rule19(IDENT, EQUAL, exp);
 
@@ -1250,8 +1250,16 @@ node* parser::expr8_p1()
 	auto copy = nxt;
 
 	Token *IDENT = ident();
-	if(IDENT)
-		return new rule27(IDENT);
+	Token *open_bracket = openPara();
+	node *Args;
+	if(IDENT && open_bracket)
+		Args = args();
+	if(IDENT && IDENT->value == "fast_power")
+		cout << Args << endl;
+	Token *close_bracket = closePara();
+
+	if(IDENT && open_bracket && Args && close_bracket)
+		return new rule27(IDENT, open_bracket, Args, close_bracket);
 
 	nxt = copy;
 	return 0;
@@ -1276,19 +1284,14 @@ node* parser::expr8_p2()
 	return 0;
 }
 
+// rule27
 node* parser::expr8_p3()
 {
 	auto copy = nxt;
 
 	Token *IDENT = ident();
-	Token *open_bracket = openPara();
-	node *Args;
-	if(IDENT && open_bracket)
-		Args = args();
-	Token *close_bracket = closePara();
-
-	if(IDENT && open_bracket && Args && close_bracket)
-		return new rule27(IDENT, open_bracket, Args, close_bracket);
+	if(IDENT)
+		return new rule27(IDENT);
 
 	nxt = copy;
 	return 0;
@@ -1355,17 +1358,20 @@ node* parser::expr8()
 
 node* parser::arg_list() {
     node *ex = expr();
-    node *ar_list_ = arg_list_();
+    node *ar_list_ = 0;
+    if(ex)
+    	ar_list_ = arg_list_();
     if (ex != NULL && ar_list_ != NULL) {
         return new rule28(ex, ar_list_);
     }
-    cout << "Syntax error" << endl;
     return NULL;
 }
 
 node* parser::arg_list_() {
     Token *coma = comma();
-    node *ar_list = arg_list();
+    node *ar_list = 0;
+    if(coma)
+    	ar_list = arg_list();
     if (coma != NULL && ar_list != NULL) {
         return new rule28_(coma, ar_list);
     }

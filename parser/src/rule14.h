@@ -12,8 +12,6 @@ private:
 	Token *opencurlybracket;
 	// compound_stmt_ - rule14_
 	node *obj1;
-	// compound_stm - rule14
-	node *obj2;
 	//closecurlybracket
 	Token *closecurlybracket;
 public:

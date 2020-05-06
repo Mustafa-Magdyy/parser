@@ -21,7 +21,12 @@ void rule13::print()
 	obj2->print();
 }
 
-rule13::~rule13() {
-	// TODO Auto-generated destructor stub
+rule13::~rule13()
+{
+	delete WHILE;
+	delete openPara;
+	delete obj1;
+	delete closePara;
+	delete obj2;
 }
 

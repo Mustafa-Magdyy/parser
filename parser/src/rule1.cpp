@@ -19,6 +19,6 @@ void rule1::print()
 
 rule1::~rule1()
 {
-
+	delete obj1;
 }
 

@@ -14,8 +14,8 @@ Token tokens[N];
 
 int main()
 {
-	freopen("C:\\T\\New folder\\Fuck\\Y5\\2nd term\\Compiler\\parser\\parser\\src\\testcase1.txt", "r", stdin);
-
+	freopen("/home/mustafa/git/parser/parser/src/TestCase4.txt", "r", stdin);
+  
 	char c;
 	string type, value;
 
@@ -33,8 +33,10 @@ int main()
 	p.nxt = tokens;
 	node *root = p.parse();
 	if(root)
+	{
 		root->print();
-	else
+		delete root;
+	}else
 		cout << "Syntax Error\n";
 
 	return 0;

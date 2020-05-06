@@ -25,7 +25,10 @@ void rule12::print()
 	cout << semicolon->value << '\n';
 }
 
-rule12::~rule12() {
-	// TODO Auto-generated destructor stub
+rule12::~rule12()
+{
+	if(obj1)
+		delete obj1;
+	delete semicolon;
 }
 

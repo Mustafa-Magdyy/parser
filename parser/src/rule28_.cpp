@@ -27,7 +27,12 @@ void rule28_::print()
 
 }
 
-rule28_::~rule28_() {
-	// TODO Auto-generated destructor stub
+rule28_::~rule28_()
+{
+	if(obj1)
+	{
+		delete COMMA;
+		delete obj1;
+	}
 }
 

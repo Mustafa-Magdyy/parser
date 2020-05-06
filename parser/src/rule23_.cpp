@@ -27,7 +27,12 @@ void rule23_::print()
 
 }
 
-rule23_::~rule23_() {
-	// TODO Auto-generated destructor stub
+rule23_::~rule23_()
+{
+	if(obj1)
+	{
+		delete PLUS_or_MINUS;
+		delete obj1;
+	}
 }
 

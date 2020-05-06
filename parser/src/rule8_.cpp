@@ -26,4 +26,11 @@ void rule8_::print()
 
 }
 
-rule8_::~rule8_(){}
+rule8_::~rule8_()
+{
+	if(obj1)
+	{
+		delete COMMA;
+		delete obj1;
+	}
+}

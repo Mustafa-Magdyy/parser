@@ -27,7 +27,12 @@ void rule20_::print()
 
 }
 
-rule20_::~rule20_() {
-	// TODO Auto-generated destructor stub
+rule20_::~rule20_()
+{
+	if(obj1)
+	{
+		delete AND_or_OR;
+		delete obj1;
+	}
 }
 

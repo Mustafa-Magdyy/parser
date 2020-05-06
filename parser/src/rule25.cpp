@@ -31,7 +31,12 @@ void rule25::print()
 	}
 }
 
-rule25::~rule25() {
-	// TODO Auto-generated destructor stub
+rule25::~rule25()
+{
+	if(obj1)
+	{
+		delete NOT_or_UPLUS_or_UMINUS;
+		delete obj1;
+	}
 }
 

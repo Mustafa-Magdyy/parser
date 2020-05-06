@@ -44,6 +44,13 @@ void rule4::print()
 
 rule4::~rule4()
 {
-
+	delete obj1;
+	delete IDENT;
+	delete SEMICOLON;
+	if(openSquareBracket)
+	{
+		delete openSquareBracket;
+		delete closeSquareBracket;
+	}
 }
 

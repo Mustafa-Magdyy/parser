@@ -18,7 +18,9 @@ void rule22::print()
 }
 
 
-rule22::~rule22() {
-	// TODO Auto-generated destructor stub
+rule22::~rule22()
+{
+	delete obj1;
+	delete obj2;
 }
 

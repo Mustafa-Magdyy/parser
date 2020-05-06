@@ -17,5 +17,6 @@ void rule24::print() {
 
 rule24::~rule24()
 {
-
+	delete obj1;
+	delete obj2;
 }

@@ -19,6 +19,7 @@ void rule28::print()
 
 rule28::~rule28()
 {
-	// TODO Auto-generated destructor stub
+	delete obj1;
+	delete obj2;
 }
 

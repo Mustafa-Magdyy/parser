@@ -27,6 +27,9 @@ void rule11::print()
 
 rule11::~rule11()
 {
-
+	if(obj1)
+		delete obj1;
+	if(b_stmt)
+		delete b_stmt;
 }
 

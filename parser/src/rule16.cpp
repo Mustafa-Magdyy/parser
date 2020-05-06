@@ -34,7 +34,15 @@ void rule16::print()
 	cout << semiColon->value << '\n';
 }
 
-rule16::~rule16() {
-	// TODO Auto-generated destructor stub
+rule16::~rule16()
+{
+	delete obj1;
+	delete IDENT;
+	delete semiColon;
+	if(openSquareBracket)
+	{
+		delete openSquareBracket;
+		delete closeSquareBracket;
+	}
 }
 

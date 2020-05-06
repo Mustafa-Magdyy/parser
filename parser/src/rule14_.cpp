@@ -30,6 +30,9 @@ void rule14_::print()
 
 rule14_::~rule14_()
 {
-	// TODO Auto-generated destructor stub
+	delete obj1;
+	delete obj2;
+	if(obj3)
+		delete obj3;
 }
 

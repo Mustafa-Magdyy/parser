@@ -14,5 +14,8 @@ void rule3::print()
 	obj1->print();
 }
 
-rule3::~rule3(){}
+rule3::~rule3()
+{
+	delete obj1;
+}
 

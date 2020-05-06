@@ -28,5 +28,11 @@ void rule7::print()
 	}
 }
 
-rule7::~rule7(){}
+rule7::~rule7()
+{
+	if(obj1)
+		delete obj1;
+	if(dataType)
+		delete dataType;
+}
 

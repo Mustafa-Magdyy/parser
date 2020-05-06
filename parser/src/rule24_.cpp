@@ -27,7 +27,12 @@ void rule24_::print()
 
 }
 
-rule24_::~rule24_() {
-	// TODO Auto-generated destructor stub
+rule24_::~rule24_()
+{
+	if(obj1)
+	{
+		delete MUL_or_DIV_or_MOD;
+		delete obj1;
+	}
 }
 

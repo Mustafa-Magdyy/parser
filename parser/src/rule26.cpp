@@ -33,7 +33,13 @@ void rule26::print()
 	}
 }
 
-rule26::~rule26() {
-	// TODO Auto-generated destructor stub
+rule26::~rule26()
+{
+	delete obj1;
+	if(openBracket)
+	{
+		delete openBracket;
+		delete closeBracket;
+	}
 }
 

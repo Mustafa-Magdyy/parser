@@ -14,5 +14,8 @@ void rule8::print() {
 	obj2->print();
 }
 
-rule8::~rule8() {
+rule8::~rule8()
+{
+	delete obj1;
+	delete obj2;
 }

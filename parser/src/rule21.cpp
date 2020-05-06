@@ -17,7 +17,9 @@ void rule21::print()
 	obj2->print();
 }
 
-rule21::~rule21() {
-	// TODO Auto-generated destructor stub
+rule21::~rule21()
+{
+	delete obj1;
+	delete obj2;
 }
 
