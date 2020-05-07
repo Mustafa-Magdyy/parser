@@ -14,8 +14,8 @@ Token tokens[N];
 
 int main()
 {
-	freopen("/home/mustafa/git/parser/parser/src/TestCase4.txt", "r", stdin);
-
+  freopen("/home/mustafa/git/parser/parser/src/TestCase2.txt", "r", stdin);
+  
 	char c;
 	string type, value;
 
