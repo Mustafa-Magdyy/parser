@@ -17,11 +17,16 @@ rule29::rule29(node *obj1)
 
 void rule29::print()
 {
+	cout << "Rule29:\n";
 	if(obj1 != 0)
 	{
+		cout << '\t';
 		obj1->print();
 	}
-
+	else
+	{
+		cout << "\teps\n";
+	}
 }
 
 rule29::~rule29()

@@ -18,12 +18,18 @@ rule2_::rule2_()
 
 void rule2_::print()
 {
+	cout << "Rule2_:\n";
 	if(obj1 != 0)
 	{
+		cout << '\t';
 		obj1->print();
+		cout << '\t';
 		obj2->print();
 	}
-
+	else
+	{
+		cout << "\teps\n";
+	}
 }
 
 rule2_::~rule2_()

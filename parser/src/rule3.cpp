@@ -11,6 +11,7 @@ rule3::rule3(node *obj1)
 
 void rule3::print()
 {
+	cout << "Rule3:\n\t";
 	obj1->print();
 }
 

@@ -18,6 +18,7 @@ rule7::rule7(Token *dataType)
 
 void rule7::print()
 {
+	cout << "Rule7 :\n\t";
 	if (obj1 != NULL)
 	{
 		obj1->print();

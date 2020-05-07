@@ -19,12 +19,16 @@ rule24_::rule24_(Token *mul_or_div_or_mod, node *obj1)
 
 void rule24_::print()
 {
+	cout << "Rule24_:\n";
 	if(obj1 != 0)
 	{
-		cout << MUL_or_DIV_or_MOD->value << '\n';
+		cout << '\t' << MUL_or_DIV_or_MOD->value << '\n';
 		obj1->print();
 	}
-
+	else
+	{
+		cout << "eps\n";
+	}
 }
 
 rule24_::~rule24_()

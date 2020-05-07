@@ -101,8 +101,7 @@
         		
         <cconfiguration id="cdt.managedbuild.config.gnu.cross.exe.release.1584397124">
             			
-            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cross.exe.release.1584397124" moduleId="org.eclipse.cdt.core.settings" name="Release">
-                				
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cross.exe.release.1584397124" moduleId="org.eclipse.cdt.core.settings" name="Release">                				
                 <externalSettings/>
                 				
                 <extensions>
@@ -159,8 +158,7 @@
                             							
                             <tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.1241936441" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker">
                                 								
-                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1248274611" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
-                                    									
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1248274611" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">                                    									
                                     <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
                                     									
                                     <additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -168,7 +166,7 @@
                                 </inputType>
                                 							
                             </tool>
-                            							
+               
                             <tool id="cdt.managedbuild.tool.gnu.cross.archiver.1140671816" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
                             							
                             <tool id="cdt.managedbuild.tool.gnu.cross.assembler.1832976585" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
@@ -218,13 +216,12 @@
             <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
             		
         </scannerConfigBuildInfo>
-        		
         <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.release.1584397124;cdt.managedbuild.config.gnu.cross.exe.release.1584397124.;cdt.managedbuild.tool.gnu.cross.cpp.compiler.141389445;cdt.managedbuild.tool.gnu.cpp.compiler.input.1415508602">
+
             			
             <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
             		
         </scannerConfigBuildInfo>
-        		
         <scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cross.exe.debug.829604730;cdt.managedbuild.config.gnu.cross.exe.debug.829604730.;cdt.managedbuild.tool.gnu.cross.c.compiler.795810682;cdt.managedbuild.tool.gnu.c.compiler.input.169389673">
             			
             <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>

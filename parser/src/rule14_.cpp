@@ -20,10 +20,13 @@ rule14_::rule14_(node *obj1, node *obj2)
 
 void rule14_::print()
 {
+	cout << "Rule14_:\n\t";
 	obj1->print();
+	cout << '\t';
 	obj2->print();
 	if(obj3)
 	{
+		cout << '\t';
 		obj3->print();
 	}
 }

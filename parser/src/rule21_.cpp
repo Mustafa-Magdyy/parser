@@ -18,12 +18,16 @@ rule21_::rule21_(Token *NE_or_Eq, node *obj1)
 
 void rule21_::print()
 {
+	cout << "Rule21_:\n";
 	if(obj1 != 0)
 	{
-		cout << NE_or_EQ->value << "\n";
+		cout << '\t' << NE_or_EQ->value << "\n\t";
 		obj1->print();
 	}
-
+	else
+	{
+		cout << "\teps\n";
+	}
 }
 
 rule21_::~rule21_()

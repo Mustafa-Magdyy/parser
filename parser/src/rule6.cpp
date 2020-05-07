@@ -15,6 +15,7 @@ rule6::rule6(node *obj1, Token *IDENT, Token *openPara, node *obj2, Token *close
 }
 
 void rule6::print() {
+	cout << "Rule6 :\n\t";
 	obj1->print();
 	std::cout << IDENT->value << '\n';
 	cout << openPara->value << '\n';
