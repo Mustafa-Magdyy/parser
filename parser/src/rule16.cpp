@@ -24,14 +24,15 @@ rule16::rule16(node *obj1, Token *IDENT, Token *openSquareBracket, Token *closeS
 
 void rule16::print()
 {
+	cout << "Rule16 :\n\t";
 	obj1->print();
-	cout << IDENT->value << "\n";
+	cout << '\t' << IDENT->value << "\n";
 	if(openSquareBracket != 0)
 	{
-		cout << openSquareBracket->value << '\n';
-		cout << closeSquareBracket->value << '\n';
+		cout << '\t' << openSquareBracket->value << '\n';
+		cout << '\t' << closeSquareBracket->value << '\n';
 	}
-	cout << semiColon->value << '\n';
+	cout << '\t' << semiColon->value << '\n';
 }
 
 rule16::~rule16()

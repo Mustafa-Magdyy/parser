@@ -20,11 +20,12 @@ rule26::rule26(node *obj1)
 
 void rule26::print()
 {
+	cout << "Rule26:\n";
 	if(openBracket != 0)
 	{
-		cout << openBracket->value << "\n";
+		cout << '\t' << openBracket->value << "\n\t";
 		obj1->print();
-		cout << closeBracket->value << '\n';
+		cout << '\t' << closeBracket->value << '\n';
 	}
 	else
 	{

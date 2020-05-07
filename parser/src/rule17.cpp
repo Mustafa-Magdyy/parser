@@ -28,13 +28,13 @@ rule17::rule17(Token *IF, Token *openBracket, node *obj1, Token *closeBracket, n
 
 void rule17::print()
 {
-	cout << IF->value << "\n" << openBracket->value << "\n";
+	cout << "Rule17:\n\t" << IF->value << "\n\t" << openBracket->value << "\n\t";
 	obj1->print();
-	cout << closeBracket->value << "\n";
+	cout << '\t' << closeBracket->value << "\n\t";
 	obj2->print();
 	if(ELSE != 0)
 	{
-		cout << ELSE->value << "\n";
+		cout << '\t' << ELSE->value << "\n\t";
 		obj3->print();
 	}
 }

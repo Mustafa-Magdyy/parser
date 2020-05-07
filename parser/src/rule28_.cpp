@@ -19,12 +19,16 @@ rule28_::rule28_(Token *comma, node *obj1)
 
 void rule28_::print()
 {
+	cout << "Rule28_ :\n";
 	if(obj1 != 0)
 	{
-		cout << COMMA->value << "\n";
+		cout << '\t' << COMMA->value << "\n\t";
 		obj1->print();
 	}
-
+	else
+	{
+		cout << "\teps\n";
+	}
 }
 
 rule28_::~rule28_()

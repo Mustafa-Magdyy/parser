@@ -13,7 +13,9 @@ rule21::rule21(node *obj1, node *obj2)
 
 void rule21::print()
 {
+	cout << "Rule21 :\n\t";
 	obj1->print();
+	cout << '\t';
 	obj2->print();
 }
 

@@ -17,12 +17,18 @@ rule10::rule10(node *obj1, node *obj2)
 
 void rule10::print()
 {
+	cout << "Rule10:\n";
 	if(obj1 != 0)
 	{
+		cout << '\t';
 		obj1->print();
+		cout << '\t';
 		obj2->print();
 	}
-
+	else
+	{
+		cout << "\teps\n";
+	}
 }
 
 rule10::~rule10() {

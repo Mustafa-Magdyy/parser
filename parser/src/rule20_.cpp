@@ -18,13 +18,17 @@ rule20_::rule20_(Token *AND_or_OR, node *obj1)
 
 void rule20_::print()
 {
+	cout << "Rule20_:\n";
 
 	if(obj1 != 0)
 	{
-		cout << AND_or_OR->value << "\n";
+		cout << '\t' << AND_or_OR->value << "\n\t";
 		obj1->print();
 	}
-
+	else
+	{
+		cout << "\teps\n";
+	}
 }
 
 rule20_::~rule20_()
