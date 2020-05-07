@@ -19,10 +19,9 @@ rule25::rule25(node *obj1)
 
 void rule25::print()
 {
-	cout << "Rule25:\n";
 	if(NOT_or_UPLUS_or_UMINUS != 0)
 	{
-		cout << '\t' << NOT_or_UPLUS_or_UMINUS->value << "\n\t";
+		cout << NOT_or_UPLUS_or_UMINUS->value << "\n";
 		obj1->print();
 	}
 	else

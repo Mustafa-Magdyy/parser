@@ -12,9 +12,7 @@ rule20::rule20(node *obj1, node *obj2)
 
 void rule20::print()
 {
-	cout << "Rule20: \n\t";
 	obj1->print();
-	cout << '\t';
 	obj2->print();
 }
 

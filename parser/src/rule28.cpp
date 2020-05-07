@@ -13,9 +13,7 @@ rule28::rule28(node *obj1, node *obj2)
 
 void rule28::print()
 {
-	cout << "Rule28:\n\t";
 	obj1->print();
-	cout << '\t';
 	obj2->print();
 }
 
