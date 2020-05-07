@@ -13,9 +13,9 @@ rule14::rule14(Token *openbracket, node *obj1, Token *closebracket)
 
 void rule14::print()
 {
-	cout << opencurlybracket->value << '\n';
+	cout << "Rule14:\n\t" << opencurlybracket->value << '\n\t';
 	obj1->print();
-	cout << closecurlybracket->value << '\n';
+	cout << '\t' << closecurlybracket->value << '\n';
 }
 
 rule14::~rule14()

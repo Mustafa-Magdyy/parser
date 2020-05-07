@@ -21,15 +21,16 @@ rule27::rule27(Token *ident_or_lit)
 
 void rule27::print()
 {
+	cout << "Rule27:\n";
 	if(obj1 != 0)
 	{
-		cout << IDENT_or_LIT->value << ' ' << openBracket->value << "\n";
+		cout << '\t' << IDENT_or_LIT->value << ' ' << openBracket->value << "\n\t";
 		obj1->print();
-		cout << closeBracket->value << '\n';
+		cout << '\t' << closeBracket->value << '\n';
 	}
 	else
 	{
-		cout << IDENT_or_LIT->value << '\n';
+		cout << '\t' << IDENT_or_LIT->value << '\n';
 	}
 }
 
