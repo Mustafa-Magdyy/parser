@@ -22,14 +22,12 @@ rule9::rule9(node *obj1, Token *IDENT, Token *openSquareBracket, Token *closeSqu
 
 void rule9::print()
 {
-	cout << "Rule9 :\n\t";
 	obj1->print();
 	cout << IDENT->value << '\n';
 
-	if (openSquareBracket != NULL) {
+	if (openSquareBracket != NULL) 
+	{
 		cout << openSquareBracket->value << '\n';
-	}
-	if (closeSquareBracket != NULL) {
 		cout << closeSquareBracket->value << '\n';
 	}
 }

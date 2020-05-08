@@ -4,8 +4,8 @@
 
 using std::cout;
 
-rule21_::rule21_() {
-	// TODO Auto-generated constructor stub
+rule21_::rule21_()
+{
 	this->NE_or_EQ = 0;
 	this->obj1 = 0;
 }
@@ -18,15 +18,10 @@ rule21_::rule21_(Token *NE_or_Eq, node *obj1)
 
 void rule21_::print()
 {
-	cout << "Rule21_:\n";
 	if(obj1 != 0)
 	{
-		cout << '\t' << NE_or_EQ->value << "\n\t";
+		cout << NE_or_EQ->value << '\n';
 		obj1->print();
-	}
-	else
-	{
-		cout << "\teps\n";
 	}
 }
 

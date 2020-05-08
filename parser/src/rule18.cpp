@@ -20,13 +20,9 @@ rule18::rule18(Token *RETURN, node *obj1, Token *semiColon)
 
 void rule18::print()
 {
-	cout << "Rule18:\n\t" << RETURN->value << '\n';
-	if(obj1 != 0)
-	{
-		cout << '\t';
+	if(obj1)
 		obj1->print();
-	}
-	cout << '\t' << semiColon->value << '\n';
+	cout << semiColon->value << '\n';
 }
 
 rule18::~rule18()

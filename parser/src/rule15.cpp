@@ -14,17 +14,10 @@ rule15::rule15(node *obj1, node *obj2)
 
 void rule15::print()
 {
-	cout << "Rule15 :\n";
-	if(obj1 != 0)
+	if(obj1)
 	{
-		cout << '\t';
 		obj1->print();
-		cout << '\t';
 		obj2->print();
-	}
-	else
-	{
-		cout << "\teps\n";
 	}
 }
 

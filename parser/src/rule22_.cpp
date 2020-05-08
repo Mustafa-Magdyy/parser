@@ -6,7 +6,6 @@ using std::cout;
 
 rule22_::rule22_()
 {
-	// TODO Auto-generated constructor stub
 	this->LE_or_LT_or_GE_or_GT = 0;
 	this->obj1 = 0;
 }
@@ -19,15 +18,10 @@ rule22_::rule22_(Token *LE_or_LT_or_GE_or_GT, node *obj1)
 
 void rule22_::print()
 {
-	cout << "Rule22_:\n";
 	if(obj1 != 0)
 	{
-		cout << '\t' << LE_or_LT_or_GE_or_GT->value << "\n\t";
+		cout << LE_or_LT_or_GE_or_GT->value << '\n';
 		obj1->print();
-	}
-	else
-	{
-		cout << "eps\n";
 	}
 }
 

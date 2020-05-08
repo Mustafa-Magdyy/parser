@@ -6,7 +6,6 @@ using std::cout;
 
 rule23_::rule23_()
 {
-	// TODO Auto-generated constructor stub
 	this->PLUS_or_MINUS = 0;
 	this->obj1 = 0;
 }
@@ -19,15 +18,10 @@ rule23_::rule23_(Token *plus_or_minus, node *obj1)
 
 void rule23_::print()
 {
-	cout << "Rule23_:\n";
-	if(obj1 != 0)
+	if(obj1)
 	{
-		cout << '\t' << PLUS_or_MINUS->value << "\n\t";
+		cout << PLUS_or_MINUS->value << '\n';
 		obj1->print();
-	}
-	else
-	{
-		cout << "eps\n";
 	}
 }
 

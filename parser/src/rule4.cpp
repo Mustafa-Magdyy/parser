@@ -24,22 +24,14 @@ rule4::rule4(node *obj1, Token *IDENT, Token *openSquareBracket, Token *closeSqu
 
 void rule4::print()
 {
-	cout << "Rule4 :\n";
 	if (obj1 != NULL) {
-		cout << '\t';
 		obj1->print();
-	}
-	if (IDENT != NULL) {
-		std::cout << '\t' << IDENT->value << "\n\t";
-	}
-	if (openSquareBracket != NULL) {
-		std::cout << openSquareBracket->value << "\n\t";
-	}
-	if (closeSquareBracket != NULL) {
-		std::cout << closeSquareBracket->value << "\n\t";
-	}
-	if (SEMICOLON != NULL) {
-		std::cout << SEMICOLON->value << "\n\t";
+		cout << IDENT->value << '\n';
+		if(openSquareBracket)
+			cout << openSquareBracket->value << '\n';
+		cout << SEMICOLON->value << '\n';
+		if(closeSquareBracket)
+			cout << closeSquareBracket->value << '\n';
 	}
 }
 

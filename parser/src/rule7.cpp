@@ -18,12 +18,11 @@ rule7::rule7(Token *dataType)
 
 void rule7::print()
 {
-	cout << "Rule7 :\n\t";
-	if (obj1 != NULL)
+	if(obj1)
 	{
 		obj1->print();
 	}
-	if (dataType != NULL)
+	else
 	{
 		cout << dataType->value << '\n';
 	}
@@ -33,7 +32,7 @@ rule7::~rule7()
 {
 	if(obj1)
 		delete obj1;
-	if(dataType)
+	else
 		delete dataType;
 }
 
