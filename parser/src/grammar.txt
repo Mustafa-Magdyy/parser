@@ -3,10 +3,10 @@ MiniC grammar:
 program 		--> decl_list
 decl_list 		--> decl decl_list | decl
 decl			--> var_decl | fun_decl
-var_dec 		--> type_spec IDENT; | type_spec IDENT[];
+var_decl 		--> type_spec IDENT; | type_spec IDENT[INT_LIT];
 type_spec 		--> VOID | BOOL | INT | FLOAT
 fun_decl 		--> type_spec IDENT(params) compound_stmt
-params 			--> param_list | VOID
+params 			--> param_list | EPS
 param_list 		--> param param_list'
 param_list'		--> ,param_list | EPS
 param 			--> type_spec IDENT | type_spec IDENT[]
@@ -14,8 +14,8 @@ stmt_list		--> stmt stmt_list | EPS
 stmt			--> expr_stmt | if_stmt | while_stmt | return_stmt | break_stmt
 expr_stmt 		--> expr; | ;
 while_stmt 		--> WHILE(expr) compound_stmt
-compound_stmt	--> {compound_stmt'}
-compound_stmt'	--> local_decls stmt_list compound_stmt' | local_decls stmt_list
+compound_stmt		--> {compound_stmt'}
+compound_stmt'		--> local_decls stmt_list compound_stmt' | local_decls stmt_list
 local_decls		--> local_decl local_decls | EPS
 local_decl		--> type_spec IDENT; | type_spec IDENT[];
 if_stmt			--> IF(expr) compound_stmt | IF(expr) compound_stmt ELSE compound_stmt
