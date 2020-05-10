@@ -10,8 +10,8 @@ private:
         Rule *decl;
         Rule *declList;
 public:
-    DeclList();
-    Rule* parse();
+    DeclList(Rule* decl);
+    DeclList(Rule *decl, Rule *declList);
     void print();
     virtual ~DeclList();
 };

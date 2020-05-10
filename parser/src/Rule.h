@@ -4,8 +4,8 @@
 class Rule
 {
 public:
-    virtual Rule* parse() = 0;
     virtual void print() = 0;
+    virtual ~Rule();
 };
 
 #endif

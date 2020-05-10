@@ -1,35 +1,28 @@
 #include "DeclList.h"
 
-DeclList::DeclList()
+DeclList::DeclList(Rule *decl)
+    : decl(decl)
 {
-    decl = new Decl();
-    declList = new DeclList();
+    
 }
 
-Rule* DeclList::parse()
+DeclList::DeclList(Rule *decl, Rule *declList)
+    : decl(decl), declList(declList)
 {
-    Token *copy = nxt;
     
-    decl = decl->parse();
-    if(decl)
-    {
-        declList = declList->parse();
-        return this;
-    }
-    nxt = copy;
-    return 0;
 }
 
 void DeclList::print()
 {
-    if(decl)
-        decl->print();
-    if(declList)
-        declList->print();
+    decl->print();
+    declList->print();
 }
 
 DeclList::~DeclList()
 {
-    delete decl;
-    delete declList;
+    if(decl)
+    {
+        delete decl;
+        delete declList;
+    }
 }

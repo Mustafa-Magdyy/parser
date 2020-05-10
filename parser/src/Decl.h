@@ -6,11 +6,9 @@
 class Decl : public Rule
 {
 private:
-    Rule *varDecl;
-    Rule *funDecl;
+    Rule *vfDecl;
 public:
-    Decl();
-    Rule* parse();
+    Decl(Rule* vfDecl);
     void print();
     virtual ~Decl();
 };

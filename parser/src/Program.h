@@ -9,8 +9,7 @@ class Program : public Rule
 private:
     Rule *declList;
 public:
-    Program();
-    Rule* parse();
+    Program(Rule *declList);
     void print();
     virtual ~Program();
 };

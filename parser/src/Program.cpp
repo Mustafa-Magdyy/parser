@@ -1,19 +1,9 @@
 #include "Program.h"
 
-Program::Program()
+Program::Program(Rule *declList)
+    : declList(declList)
 {
-    declList = new DeclList();
-}
-
-Rule* Program::parse()
-{
-        Token *copy = nxt;
-        
-        declList = declList->parse();
-        if(declList)
-            return this;
-        nxt = copy;
-        return 0;
+    
 }
 
 void Program::print()
