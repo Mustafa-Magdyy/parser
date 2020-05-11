@@ -2,11 +2,6 @@
 
 extern Token *nxt;
 
-CloseSquareBracketParser::CloseSquareBracketParser()
-{
-
-}
-
 Token* CloseSquareBracketParser::parse()
 {
     if(nxt->value == "]")

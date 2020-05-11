@@ -6,7 +6,6 @@
 class CloseSquareBracketParser : public TokenParser
 {
 public:
-    CloseSquareBracketParser();
     Token* parse();
 };
 

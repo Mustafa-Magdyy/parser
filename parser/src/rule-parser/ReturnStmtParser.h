@@ -4,7 +4,7 @@
 #include "RuleParser.h"
 #include "TokenParser.h"
 
-class ReturnStmtParser : public TokenParser
+class ReturnStmtParser : public RuleParser
 {
 private:
     TokenParser *returnParser;

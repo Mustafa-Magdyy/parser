@@ -2,11 +2,6 @@
 
 extern Token *nxt;
 
-OpenSquareBracketParser::OpenSquareBracketParser()
-{
-
-}
-
 Token* OpenSquareBracketParser::parse()
 {
     if(nxt->value == "[")

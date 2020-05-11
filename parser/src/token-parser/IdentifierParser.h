@@ -6,7 +6,6 @@
 class IdentifierParser : public TokenParser
 {
 public:
-    IdentifierParser();
     Token* parse();
 };
 

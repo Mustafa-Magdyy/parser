@@ -6,7 +6,6 @@
 class DataTypeParser : public TokenParser
 {
 public:
-    DataTypeParser();
     Token* parse();
 };
 

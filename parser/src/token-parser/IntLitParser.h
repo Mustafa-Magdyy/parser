@@ -6,7 +6,6 @@
 class IntLitParser : public TokenParser
 {
 public:
-    IntLitParser();
     Token* parse();
 };
 

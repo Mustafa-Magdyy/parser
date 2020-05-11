@@ -3,6 +3,7 @@
 
 #include "RuleParser.h"
 #include "TokenParser.h"
+#include "CompoundStmt.h"
 
 class CompoundStmtParser : public RuleParser 
 {

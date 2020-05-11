@@ -1,11 +1,6 @@
-#include "IdnetifierParser.h"
+#include "IdentifierParser.h"
 
 extern Token *nxt;
-
-IdentifierParser::IdentifierParser()
-{
-    
-}
 
 Token* IdentifierParser::parse()
 {

@@ -16,7 +16,7 @@ Rule* BreakStmtParser::parse()
 
     Token *breakk = breakParser->parse();
     Token *semicolon = semicolonParser->parse();
-    if(break && semicolon)
+    if(breakk && semicolon)
         return new BreakStmt(breakk, semicolon);
     nxt = copy;
     return 0;

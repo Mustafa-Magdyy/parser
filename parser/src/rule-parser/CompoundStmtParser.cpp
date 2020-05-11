@@ -19,7 +19,7 @@ Rule* CompoundStmtParser::parse()
     if(openCurlyBracket)
     {
         Rule *compoundStmtPrime = compoundStmtPrimeParser->parse();
-        Token *closeCurlyBracket = closeCurlyBracket->parse();
+        Token *closeCurlyBracket = closeCurlyBracketParser->parse();
         if(compoundStmtPrime && closeCurlyBracket)
             return new CompoundStmt(openCurlyBracket, compoundStmtPrime, closeCurlyBracket);
     }

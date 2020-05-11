@@ -42,7 +42,7 @@ FunDeclParser::~FunDeclParser()
     delete typeSpecParser;
     delete identifierParser;
     delete openRoundBracketParser;
-    delete params;
-    delete closeRoundBracket;
-    delete compoundStmt;
+    delete paramsParser;
+    delete closeRoundBracketParser;
+    delete compoundStmtParser;
 }

@@ -6,8 +6,7 @@
 class TokenParser 
 {
 public:
-    Token* parse();
-    virtual ~TokenParser();
+    virtual Token* parse() = 0;
 };
 
 #endif 

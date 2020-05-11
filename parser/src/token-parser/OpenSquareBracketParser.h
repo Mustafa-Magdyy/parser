@@ -6,7 +6,6 @@
 class OpenSquareBracketParser : public TokenParser
 {
 public:
-    OpenSquareBracketParser();
     Token* parse();
 };
 

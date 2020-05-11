@@ -3,6 +3,7 @@
 
 #include "RuleParser.h"
 #include "TokenParser.h"
+#include "BreakStmt.h"
 
 class BreakStmtParser : public RuleParser
 {
